@@ -387,23 +387,27 @@ public class WMethod{
      // Example use of the Utilities.runFSM() method
      // Utilities.runFSM(FSM, 1, "a a b a b", " ");
      
-     for(int i = 0; i < tests.size(); i++) {
-    	 String n = tests.elementAt(i);
-    	 String m = "";
-    	 for(int e = 0; e < n.length(); e++) {
-    		 if(e + 1 == n.length()) {
-    			 m += n.charAt(e);
-    		 }
-    		 else {
-    			 m += (n.charAt(e) + " ");
-    		 }
-    	 }
-    	 Utilities.runFSM(FSM, 1, m, " ");
-     }
+     runFSM(tests);
      
      
    }// End of main()
    
+	public static void runFSM(Vector<String> tests) {
+	   for(int i = 0; i < tests.size(); i++) {
+	    	 String n = tests.elementAt(i);
+	    	 String m = "";
+	    	 for(int e = 0; e < n.length(); e++) {
+	    		 if(e + 1 == n.length()) {
+	    			 m += n.charAt(e);
+	    		 }
+	    		 else {
+	    			 m += (n.charAt(e) + " ");
+	    		 }
+	    	 }
+	    	 Utilities.runFSM(FSM, 1, m, " ");
+	     }
+	}
+
 }//End of class WMethod
 
 
