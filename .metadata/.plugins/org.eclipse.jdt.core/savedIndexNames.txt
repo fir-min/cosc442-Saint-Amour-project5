@@ -17,4 +17,3 @@ INDEX VERSION 1.127+C:\Users\FIRMS\Desktop\Towson\COSC 442\cosc442-Saint-Amour-p
 1580651379.index
 3343306253.index
 3325605117.index
-1777233964.index

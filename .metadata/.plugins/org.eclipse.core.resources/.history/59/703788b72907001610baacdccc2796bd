@@ -404,8 +404,7 @@ public class WMethod{
 	    			 m += (n.charAt(e) + " ");
 	    		 }
 	    	 }
-	    	 System.out.println(m);
-	    	 Utilities.runFSM(FSM, startState, m, " ");
+	    	 Utilities.runFSM(FSM, 1, m, " ");
 	     }
 	}
 
